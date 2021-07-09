@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Share your event | Hometown News</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Crete+Round|Open+Sans:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/9faec82d34.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="menu">
+      <h1 class="logo">
+        <img class="logo__mark" src="/images/logo.svg" alt="HomeTown Mark" />
+        <img class="logo__name" src="/images/name.svg" alt="HomeTown Name" />
+      </h1>
+      <ul class="nav">
+        <li><a href="/">News</a></li>
+        <li><a href="/gallery.html">Gallery</a></li>
+        <li><a href="/event.html">Submit An Event</a></li>
+      </ul>
+    </header>
+    <section class="event">
+      <div class="event__heading">
+        <p class="event__subtitle">Submit An Event</p>
+        <h2 class="event__title">Let us know about your Event!</h2>
+      </div>
+      <form action="" class="event-form">
+        <div class="event-form__info">
+          <div class="event-form__field">
+            <label class="event-form__label" for="name"
+              ><p class="event-form__label-question">Full Name</p>
+            </label>
+            <input class="event-form__input" type="text" id="name" />
+          </div>
+          <div class="event-form__field">
+            <label class="event-form__label" for="email"
+              ><p class="event-form__label-question">Email Address</p>
+            </label>
+            <input class="event-form__input" type="text" id="email" />
+          </div>
+          <div class="event-form__field">
+            <label class="event-form__label" for="phone"
+              ><p class="event-form__label-question">Phone Number</p>
+            </label>
+            <input class="event-form__input" type="text" id="phone" />
+          </div>
+          <div class="event-form__field">
+            <label class="event-form__label" for="location"
+              ><p class="event-form__label-question">
+                Location ( City, State )
+              </p>
+            </label>
+            <input class="event-form__input" type="text" id="location" />
+          </div>
+        </div>
+        <div class="event-form__tip">
+          <div class="event-form__field">
+            <label class="event-form__label" for="tip"
+              ><p class="event-form__label-question">Description of Event:</p>
+            </label>
+            <textarea class="event-form__input" name="tip" id="tip"></textarea>
+          </div>
+          <input
+            class="event-form__submit"
+            type="submit"
+            value="Submit Your Tip"
+          />
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer-links">
+        <div class="footer-link-list">
+          <p class="footer-heading"><strong>News Topics</strong></p>
+          <p class="footer-link">Breaking</p>
+          <p class="footer-link">Events</p>
+          <p class="footer-link">Politics</p>
+          <p class="footer-link">Sports</p>
+          <p class="footer-link">Community</p>
+          <p class="footer-link">Best Picks</p>
+          <p class="footer-link">Weather</p>
+        </div>
+        <div class="footer-link-list">
+          <p class="footer-heading"><strong>Community</strong></p>
+          <p class="footer-link">Breaking</p>
+          <p class="footer-link">Events</p>
+          <div class="footer-social">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+        <div class="footer-link-list">
+          <p class="footer-heading"><strong>Hometown News</strong></p>
+          <p class="footer-link">Breaking</p>
+          <p class="footer-link">Events</p>
+          <p class="footer-link">Politics</p>
+          <p class="footer-link">Sports</p>
+          <p class="footer-link">Community</p>
+        </div>
+      </div>
+      <p class="footer-copyright">Copyright Hometown News 202X</p>
+    </footer>
+  </body>
+</html>
